@@ -7,7 +7,7 @@ Installation
 =====================
 
 ```
-$ npm install shopwaveOauthClient
+$ npm install shopwave-oauth-client
 ```
 
 Examples

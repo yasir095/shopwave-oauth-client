@@ -1,28 +1,34 @@
 {
-    "author": "yasir mahmood <yasir@getshopwave.com>",
-    "name": "shopwaveOauthClient",
-    "version": "0.0.1",
-    "description": "Shopwave oAuth client",
-    "directories" : { "lib" : "./lib" },
-    "dependencies": {
-        "express" : "*",
-        "request" : "*"
-    },
-    "optionalDependencies": {
-
-    },
-    "engines": {
-        "node": "*"
-    },
-    "main": "index.js",
-    "keywords": [
-        "shopwave",
-        "oAuth",
-        "shopwave client",
-        "shopwave api"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/yasir095/shopwave-oauth-client.git"
-    }
+  "author": "yasir mahmood <yasir@getshopwave.com>",
+  "name": "shopwave-oauth-client",
+  "version": "0.0.1",
+  "description": "Shopwave oAuth client",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "request": "*"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "main": "index.js",
+  "keywords": [
+    "shopwave",
+    "oAuth",
+    "shopwave client",
+    "shopwave api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/yasir095/shopwave-oauth-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yasir095/shopwave-oauth-client/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "BSD"
 }
