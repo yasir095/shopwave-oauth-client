@@ -6,7 +6,9 @@ A basic shopwave oauth client for node.js . This API allows users to authenticat
 Installation
 =====================
 
+```
 $ npm install shopwaveOauthClient
+```
 
 Examples
 ==========
