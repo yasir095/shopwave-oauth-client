@@ -32,7 +32,8 @@ Here is an example on how to use it:
         req.oAuthClient.accessChecker(req, res, function(responseObject){
 
             //if authentication successful then call next
-            if(req.session.oAuthCookie!== undefined && req.session.oAuthCookie.accessToken !== undefined){
+            if(req.session.oAuthCookie!== undefined &&
+                            req.session.oAuthCookie.accessToken !== undefined){
                 delete req.query.code;
                 next();
             }
