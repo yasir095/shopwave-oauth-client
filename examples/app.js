@@ -56,7 +56,8 @@ var accessChecker = function(req, res, next){
         clientUrl     : "http://your.site.url.here",
         apiServerUrl  : "http://api.merchantstack.com",
         clientId      : "*****your clientId here*******",
-        clientSecret  : "*****your clientSecret here***"
+        clientSecret  : "*****your clientSecret here***",
+        acceptEncoding: 'gzip'
     };
 
     req.oAuthClient = oAuthClient.createConnection(config);

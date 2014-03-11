@@ -25,6 +25,6 @@ module.exports = {
 
     accessType          : "online",
     defaultScope        : "application",
-    responseType        : "code"
-
+    responseType        : "code",
+    acceptEncoding      : null          //possible option "gzip, inflate"
 };
