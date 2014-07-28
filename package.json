@@ -30,7 +30,10 @@
     "url": "https://github.com/yasir095/shopwave-oauth-client/issues"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
+  },
+  "devDependencies": {
+      "mocha": "*"
   },
   "license": "BSD"
 }
