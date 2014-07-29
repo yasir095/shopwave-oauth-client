@@ -47,10 +47,8 @@ Here is an example on how to use it:
 ***
 
 ## GET API CALLS
-================
 
 * Get products
-==============
 
 ```javascript
 
@@ -83,7 +81,6 @@ req.oAuthClient.getProduct(req, res, options, function(responseObject)
 
 ---
 ## POST API CALLS
-=================
 
 * Post Product
 
