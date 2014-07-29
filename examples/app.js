@@ -52,12 +52,12 @@ if ('development' == app.get('env')) {
 var accessChecker = function(req, res, next){
 
     var config = {
-        authServerUrl : "http://secure.merchantstack.com",
-        clientUrl     : "http://your.site.url.here",
-        apiServerUrl  : "http://api.merchantstack.com",
-        clientId      : "*****your clientId here*******",
-        clientSecret  : "*****your clientSecret here***",
-        acceptEncoding: 'gzip'
+        authServerUrl       : "http://secure.merchantstack.com",
+        redirectUrl         : "http://your.site.url.here",
+        apiServerUrl        : "http://api.merchantstack.com",
+        clientIdentifier    : "*****your clientId here*******",
+        clientSecret        : "*****your clientSecret here***",
+        acceptEncoding      : 'gzip'
     };
 
     req.oAuthClient = oAuthClient.createConnection(config);

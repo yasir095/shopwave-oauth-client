@@ -44,3 +44,70 @@ Here is an example on how to use it:
         });
     }
 ```
+***
+
+## GET API CALLS
+---
+
+* ####Get products
+
+```javascript
+
+//optional header params.
+
+var options = {
+    productIds : 1,2,3,4,66,
+    active: true,
+    deleted: false,
+    storeId: 1
+}
+
+req.oAuthClient.getProduct(req, res, options, function(responseObject)
+    {
+        var products = JSON.parse(responseObject.body);
+        console.log(products);
+    });
+
+```
+* ####Get User
+* ####Get Basket
+* ####Get Status
+* ####Get Merchant
+* ####Get Category
+* ####Get Store
+* ####Get Promotion
+* ####Get PromotionCode
+* ####Get BasketReport
+* ####Get Log
+
+----
+## POST API CALLS
+----
+
+* ####Post Product
+
+```javascript
+var options = null;
+var requestParams = {
+  "products": {
+    "0": {
+      "id": "18",
+      "name": "Earl Grey Brewed Tea",
+      "details": "Earl Grey includes some of the world",
+      "price": "107.5",
+      "barcode": "75645464655",
+      "vatPercentage": "0.20"
+    }
+  }
+}
+
+req.oAuthClient.postProduct(req, res, options, requestParams, function(response){
+    if(response.error == null || response.error === undefined)
+    {
+        res.send({message: "Product "+statusParams+"d successfully"});
+    }else{
+        exceptionHandler.logError("onProductDelete: ", response.error);
+        res.send({error: "Something went wrong, please try again later"});
+    }
+});
+```
