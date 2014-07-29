@@ -47,9 +47,10 @@ Here is an example on how to use it:
 ***
 
 ## GET API CALLS
----
+================
 
-* ####Get products
+* Get products
+==============
 
 ```javascript
 
@@ -69,22 +70,22 @@ req.oAuthClient.getProduct(req, res, options, function(responseObject)
     });
 
 ```
-* ####Get User
-* ####Get Basket
-* ####Get Status
-* ####Get Merchant
-* ####Get Category
-* ####Get Store
-* ####Get Promotion
-* ####Get PromotionCode
-* ####Get BasketReport
-* ####Get Log
+* Get User
+* Get Basket
+* Get Status
+* Get Merchant
+* Get Category
+* Get Store
+* Get Promotion
+* Get PromotionCode
+* Get BasketReport
+* Get Log
 
-----
+---
 ## POST API CALLS
-----
+=================
 
-* ####Post Product
+* Post Product
 
 ```javascript
 var options = null;
