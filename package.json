@@ -1,7 +1,7 @@
 {
   "author": "yasir mahmood <yasir@getshopwave.com>",
   "name": "shopwave-oauth-client",
-  "version": "0.0.9",
+  "version": "0.1.9",
   "description": "Shopwave oAuth client",
   "directories": {
     "example": "examples"
